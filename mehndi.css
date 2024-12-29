@@ -1,0 +1,228 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image:url('background img2.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+}
+
+.logo-container {
+    display: flex;
+    align-items: left;
+}
+
+.logo {
+    height: 10px; 
+    margin-right: 10px; 
+}
+
+nav {
+    display: flex;
+}
+
+nav .btn {
+    margin-left: 10px;
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+}
+
+nav .btn:hover {
+    background-color: #0056b3;
+}
+
+header {
+    background-color: #d6e1d7;
+    padding: 20px;
+    text-align: right ;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.image {
+    margin: 10px;
+}
+
+.image img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+form {
+    margin: 0 auto;
+    width: 100%;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: right ;
+}
+
+nav {
+    display: flex;
+    gap: 10px; 
+}
+
+.btn {
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+.social-icons a {
+    color: #333;
+    font-size: 24px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.social-icons a:hover {
+    color: #007bff;
+}
+footer {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.testimonials {
+    background-color: antiquewhite;
+    padding: 40px 20px;
+    text-align: center;
+}
+.testimonial {
+    margin-bottom: 20px;
+}
+.testimonial p {
+    font-family: cursive;
+    font-size: 18px;
+}
+.testimonial h3 {
+    font-family: serif;
+    font-size: 22px;
+    margin-top: 10px;
+}
+.newsletter {
+    background-color: antiquewhite;
+    padding: 40px 20px;
+    text-align: center;
+}
+.newsletter input[type="email"] {
+    padding: 10px;
+    width: 300px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.newsletter input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.newsletter input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+.testimonials {
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 20px;
+}
+.testimonials h2 {
+    border-bottom: 2px solid black;
+    display: inline-block;
+    line-height: 1.5;
+    font-family: serif;
+}
+.testimonial p {
+    font-family: cursive;
+    margin-bottom: 20px;
+}
+.testimonial-form {
+    margin-top: 20px;
+    text-align: center;
+}
+.testimonial-form input, .testimonial-form textarea {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 80%;
+}
+.testimonial-form button {
+    padding: 10px 20px;
+    font-size: 16px;
+}

@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mehndi Designs</title>
+    <link rel="stylesheet" href="mehendi.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('background img2.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            height: 100vh;
+            overflow-y: auto;
+            scroll-behavior: smooth;
+        }
+        header {
+            background-color: rgba(214, 225, 215, 0.7);
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .logo {
+            width: 100px;
+            height: auto;
+        }
+        .header-content {
+            display: flex;
+            align-items: center;
+        }
+        .header-content h1 {
+            margin: 0;
+            margin-left: 20px;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+        }
+        .gallery {
+            display: flex;
+            justify-content: center;
+            padding-bottom: 20px;
+            margin-top: auto;
+        }
+        .image {
+            margin: 10px;
+            transition: transform 0.5s ease-in-out;
+            position: relative;
+            overflow: hidden;
+        }
+        .image:hover {
+            transform: scale(1.05);
+        }
+        .card {
+            background-color: rgba(242, 242, 242, 0.7);
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.5s ease-in-out, height 0.5s ease-in-out;
+            padding: 10px;
+            width: 200px;
+            height: 300px;
+            overflow: hidden;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            height: 350px;
+        }
+        .image img {
+            width: 180px;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        .image p {
+            text-align: center;
+            margin-top: 10px;
+        }
+        .info {
+            display: none;
+            margin-top: 10px;
+        }
+        .card:hover .info {
+            display: block;
+        }
+        .image-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .image-container img {
+            width: 300px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .btn:hover {
+            background-color: #0056b3;
+        }
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="logo.png" alt="Logo" class="logo">
+            <h1>Welcome to MehendiMagicWorld</h1>
+        </div>
+        <div>
+            <a href="signup.php" class="btn">Signup</a>
+            <a href="signin.php" class="btn">Signin</a>
+            <a href="logout.php" class="btn">Logout</a>
+            <a href="admin.php" class="btn">Admin</a>
+        </div>
+    </header>
+    
+    <nav style="background-color: rgba(0, 0, 0, 0.7); text-align: left;">
+        <ul style="list-style-type: none; padding: 0;">
+            <li style="display: inline-block; margin-right: 20px;"><a href="#Home-section" style="color: white;">Home</a></li>
+            <li style="display: inline-block; margin-right: 20px;"><a href="#About-section" style="color: white;">About</a></li>
+            <li style="display: inline-block; margin-right: 20px;"><a href="#gallery-section" style="color: white;">Gallery</a></li>
+            <li style="display: inline-block; margin-right: 20px;"><a href="#contact-section" style="color: white;">Contact</a></li>
+            <li style="display: inline-block; margin-right: 20px;"><a href="#testimonials-section" style="color: white;">Testimonials</a></li>
+            <li style="display: inline-block; margin-right: 20px;"><a href="#services-section" style="color: white;">Services</a></li>
+            <li style="display: inline-block; margin-right: 20px;"><a href="#faq-section" style="color: white;">FAQ</a></li>
+        </ul>
+    </nav>
+    
+    <h1 style="color: #fff; font-family: serif; text-align: center;">SUCHITA'S MEHENDI DESIGNS</h1>
+    <h2 style="color: antiquewhite; line-height: 1.5; margin-bottom: 20px; font-family: Arial, sans-serif; text-align: center;">Beautiful Mehendi Designs That Are Perfect<br> 
+        For All Occasions</h2>
+    <h4 style="color: antiquewhite; line-height: 1.5; margin-bottom: 20px; font-family: Arial, sans-serif; text-align: center;">Mandala art is a classic method for presenting detail design work.<br>
+        It looks stunning when applied with mehndi designs. These days,<br>
+        mandala mehndi tattoo designs are popular.</h4>
+        <section id="Home-section" class="Home">
+            <div class="gallery">
+                <div class="image">
+                    <div class="card">
+                        <img src="img1.jpg" alt="Mehndi Design 1">
+                        <p>ARABIAN</p>
+                        <div class="info">
+                            <p class="price">Price: 1000</p>
+                            <p class="description">Beautiful Arabian Mehndi design perfect for any occasion.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="image">
+                    <div class="card">
+                        <img src="img2.jpg" alt="Mehndi Design 2">
+                        <p>BRIDAL DESIGNS</p>
+                        <div class="info">
+                            <p class="price">Price: 2000</p>
+                            <p class="description">Elegant bridal Mehndi designs tailored for your special day.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="image">
+                    <div class="card">
+                        <img src="img3.jpg" alt="Mehndi Design 3">
+                        <p>FULL HEAVY BRIDE</p>
+                        <div class="info">
+                            <p class="price">Price: 5000</p>
+                            <p class="description">Intricate full heavy bridal Mehndi designs to make you shine on your wedding day.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    <section id="About-section" class="About">
+        <div style="background-color: antiquewhite; text-align: center; padding: 20px;">
+            <h2 style="border-bottom: 2px solid black; display: inline-block; line-height: 1.5; font-family:Arial, sans-serif;">About Us</h2>
+            <p style="font-family: cursive; margin-bottom: 20px;">
+                Professional Mehendi Artist With Over 7 Years Of Experience In Providing Innovative,<br> Modern & Contemporary Designs. The goal of Suchita's Mehendi design is not to provide you with<br> gorgeous mehendi designs, but to create designs that are pleasing to your heart. You feel<br> thrilled when you see mehendi designs on your hands and want to apply them again. Apart from<br> this, we have added different social media platforms like on Facebook, Instagram, Pinterest etc <br>where we can show our Mehndi art with different photos and videos of Mehndi designs.<br>
+            </p>
+        </div>
+    </section>
+    
+    <section id="gallery-section" class="gallery">
+        <div class="image-container">
+            <img src="mehendi.jpg" alt="Mehendi Image 1">
+            <img src="mehendi2.jpg" alt="Mehendi Image 2">
+            <img src="mehendi3.jpg" alt="Mehendi Image 3">
+            <img src="mehendi6.jpg" alt="Mehendi Image 7">
+            <img src="mehendi4.jpg" alt="Mehendi Image 5">
+            <img src="mehendi5.jpg" alt="Mehendi Image 6">
+        </div>
+    </section>
+
+    <section id="faq-section" class="faq">
+        <div style="background-color: antiquewhite; text-align: center; padding: 20px; font-family: Arial, sans-serif;">
+            <h2 style="border-bottom: 2px solid black; display: inline-block; line-height: 1.5; padding-bottom: 10px;">Frequently Asked Questions</h2>
+            <div class="faq-item" style="margin-top: 20px;">
+                <p style="margin-bottom: 20px;">
+                    <strong>Q: How long does mehendi last?</strong><br>
+                    A: Mehendi typically lasts 1-2 weeks, depending on skin type and aftercare.
+                </p>
+            </div>
+            <div class="faq-item" style="margin-top: 20px;">
+                <p style="margin-bottom: 20px;">
+                    <strong>Q: How can I make my mehendi darker?</strong><br>
+                    A: Keep the mehendi on for as long as possible and avoid washing with soap for the first 24 hours.
+                </p>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section id="contact-section" class="contact">
+        <div style="background-color: antiquewhite; text-align: center; padding: 20px;">
+            <h2 style="border-bottom: 2px solid black; display: inline-block; line-height: 1.5; font-family: Arial, sans-serif;">Contact Us</h2>
+            <p style="font-family: cursive; margin-bottom: 20px;">
+                You can get in touch with Suchitas Mehndi Designs if you’d like to discover new mehndi<br> designs or apply mehndi to any wedding or event.<br>
+
+                With the help of videos, you can easily learn various types of designs. You may watch<br> them on the “Suchitas Mehndi Designs” Instagram page, or you can contact us using the provided form.<br>
+            </p>
+        </div>
+    </section>
+
+    <section id="services-section" class="services">
+        <div style="background-color: antiquewhite; text-align: center; padding: 20px;">
+            <h2 style="border-bottom: 2px solid black; display: inline-block; line-height: 1.5; font-family:Arial, sans-serif;">Our Services</h2>
+            <ul style="list-style-type: none; padding: 0; font-family: cursive; margin-top: 20px;">
+                <li style="margin-bottom: 10px;">Bridal Mehendi</li>
+                <li style="margin-bottom: 10px;">Arabic Mehendi</li>
+                <li style="margin-bottom: 10px;">Mandala Mehendi</li>
+                <li style="margin-bottom: 10px;">Custom Designs</li>
+                <li style="margin-bottom: 10px;">Arabian Designs</li>
+                <li style="margin-bottom: 10px;">Full Heavy bridal</li>
+                <li style="margin-bottom: 10px;">Custom Designs</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="testimonials-section" class="testimonials">
+        <div style="background-color: antiquewhite; text-align: center; padding: 20px;">
+            <h2 style="border-bottom: 2px solid black; display: inline-block; line-height: 1.5; font-family:Arial, sans-serif;">Testimonials</h2>
+            <div id="testimonial-container">
+                <div class="testimonial" style="margin-top: 20px;">
+                    <p style="font-family: cursive; margin-bottom: 20px;">
+                        "Suchita's mehendi designs were absolutely stunning! Everyone at the wedding loved them." - Sayali.
+                    </p>
+                </div>
+                <div class="testimonial" style="margin-top: 20px;">
+                    <p style="font-family: cursive; margin-bottom: 20px;">
+                        "Amazing work! The designs were intricate and beautiful. Highly recommend!" - Bhargavi.
+                    </p>
+                </div>
+                <div class="testimonial" style="margin-top: 20px;">
+                    <p style="font-family: cursive; margin-bottom: 20px;">
+                        "No words to your mehndi desings !!!" - Chahat .
+                    </p>
+                </div>      
+            </div>
+        </div>
+    
+        <div class="testimonial-form" style="background-color: antiquewhite; text-align: center; padding: 20px; margin-top: 20px;">
+            <h3 style="border-bottom: 2px solid black; display: inline-block; line-height: 1.5; font-family: Arial, sans-serif;">Submit Your Testimonial</h3>
+            <input type="text" id="name" placeholder="Your Name" required style="display: block; margin: 10px auto; padding: 10px; width: 80%;">
+            <textarea id="testimonial" placeholder="Your Testimonial" rows="4" required style="display: block; margin: 10px auto; padding: 10px; width: 80%;"></textarea>
+            <button onclick="submitTestimonial()" style="padding: 10px 20px; background-color: #007bff; color: #fff; text-decoration: none; border: none; border-radius: 5px; cursor: pointer;">Submit</button>
+        </div>
+    </section>
+    <script>
+        function submitTestimonial() {
+            var name = document.getElementById('name').value;
+            var testimonial = document.getElementById('testimonial').value;
+    
+            if (name && testimonial) {
+                var testimonialContainer = document.getElementById('testimonial-container');
+    
+                var newTestimonial = document.createElement('div');
+                newTestimonial.classList.add('testimonial');
+                newTestimonial.style.marginTop = '20px';
+    
+                var p = document.createElement('p');
+                p.style.fontFamily = 'cursive';
+                p.style.marginBottom = '20px';
+                p.textContent = `"${testimonial}" - ${name}.`;
+    
+                newTestimonial.appendChild(p);
+                testimonialContainer.appendChild(newTestimonial);
+    
+                // Clear the form
+                document.getElementById('name').value = '';
+                document.getElementById('testimonial').value = '';
+            } else {
+                alert('Please fill in both fields.');
+            }
+        }
+    </script>
+    
+<pre>
+
+
+
+
+</pre>
+    <footer style="background-color: rgba(0, 0, 0, 0.7); color: white; text-align: center; padding: 20px; position: fixed; width: 100%; bottom: 0;">
+        <p>&copy; 2024 Suchita's Mehendi Designs. All rights reserved.&hearts;
+        Follow us on:
+            <a href="https://www.facebook.com" target="_blank" style="color: white; margin-left: 10px;">Facebook</a> |
+            <a href="https://www.instagram.com" target="_blank" style="color: white; margin-left: 10px;">Instagram</a> |
+            <a href="https://www.pinterest.com" target="_blank" style="color: white; margin-left: 10px;">Pinterest</a>
+        </p>
+    </footer>
+</body>
+</html>
